@@ -30,8 +30,8 @@ contract_abi = [
 
 # 账户地址和私钥（仅示例，不要在实际场景中使用）
 # todo
-from_address = os.getenv("from_address")
-private_key = os.getenv("private_key")
+from_address = os.getenv("bnb_address")
+private_key = os.getenv("bnb_private_key")
 
 web3 = Web3(Web3.HTTPProvider(BNBChain.rpc_url))
 
